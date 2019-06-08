@@ -88,12 +88,22 @@ This action will install the following tools/libraries:
 * launch code standard fixer
 
 ````
-    vendor/bin/php-cs-fixer fix --diff -v
+    vendor\bin\php-cs-fixer fix --diff -v
 ````
 
 ## Use PHPUnit
 
-* following 'composer install'
+* all commands to be executed in main repo folder
+* generate test config
+
+````
+    tests/config/generateTestConfig.sh
+````
+
+* generate test database
+
+    TBD
+
 * launch PHP unit tests:
 
 ````
